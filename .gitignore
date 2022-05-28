@@ -36,6 +36,8 @@ api-docs.json
 /files
 ormconfig.json
 
+yarn.lock
+
 # blender backups
 *.blend1
 *.blend2

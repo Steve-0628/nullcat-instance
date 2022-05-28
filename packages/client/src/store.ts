@@ -53,7 +53,7 @@ export const defaultStore = markRaw(new Storage('base', {
 	},
 	reactions: {
 		where: 'account',
-		default: [':wakaru:', ':love_nullcatchan:', ':nadenade_neko:', ':iihanasi:', ':aruaru:', ':blobcataww:', ':cry_nullcatchan:', '🥴', '🤏', '😇']
+		default: ['👍', '❤️', '😆', '🤔', '😮', '🎉', '💢', '😥', '😇', '🍮']
 	},
 	mutedWords: {
 		where: 'account',
@@ -68,13 +68,16 @@ export const defaultStore = markRaw(new Storage('base', {
 		where: 'deviceAccount',
 		default: [
 			'notifications',
-			'messaging',
-			'antennas',
+			'favorites',
+			'drive',
 			'followRequests',
 			'-',
-			'drive',
-			'pages',
+			'featured',
+			'explore',
+			'announcements',
 			'search',
+			'-',
+			'ui'
 		]
 	},
 	visibility: {
